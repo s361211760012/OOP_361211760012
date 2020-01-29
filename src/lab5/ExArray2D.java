@@ -23,24 +23,23 @@ public class ExArray2D {
         int total = 0;
 
 
-
-        for (int i = 0; i < x.length ; i++) { //วนลูปแถวแนวนอน
-            for (int j = 0; j <x[i].length ; j++) { //วนลูปแถวแนวตั้ง
+        for (int i = 0; i < x.length; i++) { //วนลูปแถวแนวนอน
+            for (int j = 0; j < x[i].length; j++) { //วนลูปแถวแนวตั้ง
                 System.out.println("input: ");
                 total += x[i][j];
             }//j
             System.out.println();
         }//i
         //show total average
-        System.out.println("total value: "+total);
-        System.out.println("average value: "+total/6));
+        System.out.println("total value: " + total);
+        System.out.println("average value: " + total / 6);
     }
 
     private static int[][] inputDataArray(int[][] x) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please, enter integer to array below:");
-        for (int i = 0; i < x.length ; i++) { //วนลูปแถวแนวนอน
-            for (int j = 0; j <x[i].length ; j++) { //วนลูปแถวแนวตั้ง
+        for (int i = 0; i < x.length; i++) { //วนลูปแถวแนวนอน
+            for (int j = 0; j < x[i].length; j++) { //วนลูปแถวแนวตั้ง
                 System.out.println("input: ");
                 x[i][j] = sc.nextInt();
 
@@ -48,7 +47,4 @@ public class ExArray2D {
         }//i
         return x;
     }
-
-
-}
-}
+}//class
