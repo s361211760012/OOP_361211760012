@@ -1,6 +1,6 @@
 package lab8;
 
-public class GraphicApp {
+public class GeaphicApp {
     public static void main(String[] args) {
         Circle G1 = new Circle();
         G1.setRadius(20.22);
